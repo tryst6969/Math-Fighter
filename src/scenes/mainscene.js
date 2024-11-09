@@ -323,7 +323,7 @@ spriteHit(slash, sprite) {
 gameOver(){
   this.timer--;
   if (this.timer < 0) {
-    this.scene.start("over-scene", { score: this.score });
+    this.scene.start("overscene", { score: this.score });
   }
 }
  }
